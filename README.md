@@ -9,3 +9,11 @@ HumHub is an Open Source Enterprise Social Network: https://github.com/humhub/hu
 ## Theming
 
 The HumHub default themes can be used out of the box to create clean and professional looking social networks. For advanced topics they can be customized, see https://docs.humhub.org/docs/theme/overview/
+
+## Changelog
+
+Have a look at the [changelog](./CHANGELOG.md) to be up to date with the development process.
+
+---
+
+###### Version: 0.1
