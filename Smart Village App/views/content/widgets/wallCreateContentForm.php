@@ -36,7 +36,7 @@ $pickerUrl = ($contentContainer instanceof Space) ? $contentContainer->createUrl
 
 ?>
 
-<div class="panel panel-default clearfix" style="display:none;">
+<div class="panel panel-default clearfix" id="post_section">
     <div class="panel-body" id="contentFormBody" style="display:none;" data-action-component="content.form.CreateForm" >
         <?= Html::beginForm($submitUrl, 'POST'); ?>
 
@@ -126,4 +126,9 @@ $pickerUrl = ($contentContainer instanceof Space) ? $contentContainer->createUrl
     </div>
     <!-- /panel body -->
 </div> <!-- /panel -->
+
+<script>
+    let element = document.getElementById("post_section");
+    element.remove();
+</script>
 

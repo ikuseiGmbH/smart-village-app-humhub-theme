@@ -42,8 +42,7 @@ $rightPanelBlocks = isset($panels[WallStreamFilterNavigation::PANEL_POSITION_RIG
 
 <?= Html::endTag('div') ?>
 
-<style>
-    #wall-stream-filter-nav{
-        display:none !important;
-    }
-</style>
+<script>
+    let filterRemove = document.getElementById("wall-stream-filter-nav");
+    filterRemove.remove();
+</script>
