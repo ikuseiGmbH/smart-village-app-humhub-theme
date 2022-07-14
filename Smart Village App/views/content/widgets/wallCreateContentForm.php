@@ -128,7 +128,7 @@ $pickerUrl = ($contentContainer instanceof Space) ? $contentContainer->createUrl
 </div> <!-- /panel -->
 
 <script>
-    let element = document.getElementById("post_section");
-    element.remove();
+    //Remove the post section from user's profile stream
+     document.getElementById("post_section").remove();
 </script>
 

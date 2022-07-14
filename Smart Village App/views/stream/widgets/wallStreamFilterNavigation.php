@@ -43,6 +43,6 @@ $rightPanelBlocks = isset($panels[WallStreamFilterNavigation::PANEL_POSITION_RIG
 <?= Html::endTag('div') ?>
 
 <script>
-    let filterRemove = document.getElementById("wall-stream-filter-nav");
-    filterRemove.remove();
+    //Remove the filter from the user's profile stream
+    document.getElementById("wall-stream-filter-nav").remove();
 </script>
