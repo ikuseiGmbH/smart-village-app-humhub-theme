@@ -42,7 +42,12 @@ $rightPanelBlocks = isset($panels[WallStreamFilterNavigation::PANEL_POSITION_RIG
 
 <?= Html::endTag('div') ?>
 
-<script>
-    let filterRemove = document.getElementById("wall-stream-filter-nav");
-    filterRemove.remove();
-</script>
+<?php
+//Remove the filter from the user's profile stream
+$controllerName = Yii::$app->controller->id;
+if($controllerName == "profile"){
+    echo "<script>
+      document.getElementById('wall-stream-filter-nav').remove();
+      </script>";
+}
+?>
