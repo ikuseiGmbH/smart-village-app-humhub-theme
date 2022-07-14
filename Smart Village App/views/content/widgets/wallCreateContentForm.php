@@ -127,8 +127,14 @@ $pickerUrl = ($contentContainer instanceof Space) ? $contentContainer->createUrl
     <!-- /panel body -->
 </div> <!-- /panel -->
 
-<script>
-    //Remove the post section from user's profile stream
-     document.getElementById("post_section").remove();
-</script>
+
+<?php
+//Remove the post section from user's profile stream
+$controllerName = Yii::$app->controller->id;
+if($controllerName == "profile"){
+    echo "<script>
+      document.getElementById('post_section').remove();
+      </script>";
+}
+?>
 
