@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [v0.2.1]
+
+Hide posts section and filter in profile
+
+### Added
+
+- added files to override profile sections in order to remove the text area for posts and filter
+
 ## [v0.2]
 
 Hide calendar checkboxes for "decline" and "maybe"
